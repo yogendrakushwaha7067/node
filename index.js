@@ -32,8 +32,15 @@ app.get("/share/facility/:facilityId", async (req, res) => {
         <meta name="twitter:card" content="summary_large_image">
     </head>
     <body>
+    <link itemprop="thumbnailUrl" href="https://bla123.neocities.org/mp/images/thumbs/IMG_327.JPG">
+
+<span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
+<link itemprop="url" href="https://bla123.neocities.org/mp/images/thumbs/IMG_327.JPG">
+</span>
         <script>
             window.location.href = "https://bookmysport.flutterflow.app/facilityDetailsUser?facilty=${facility.facilityId}";
+
+
         </script>
     </body>
     </html>
